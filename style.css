@@ -1,0 +1,109 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================header section============================= */
+body
+{
+    padding: 0 5rem;
+    width: 100%;
+    height: 100vh;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 10%;
+    width: 100%;
+}
+.header-left
+{
+    display: flex;
+}
+
+.header-right
+{
+    display: flex;
+}
+.header-right img
+{
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================Main section===================== */
+
+main
+{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    padding: 4rem;
+}
+.product-image-section
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-image
+{
+    width: 200px;
+    
+}
+
+.thumbnail-section
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.thumbnail-section img
+{
+    width: 100px;
+    
+}
+.product-content-section
+{
+    width: 50%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
