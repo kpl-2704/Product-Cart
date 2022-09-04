@@ -73,9 +73,9 @@ header
     width: 40px;
 }
 .cart-img{
-    margin-right: 60px;
-    width: ;
-    height: auto;
+    margin:1.1rem 2.4rem ;
+    max-width: 1.2rem;
+    height: 1.2rem;
 }
 
 
@@ -110,11 +110,12 @@ main
     width: 60%;
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 #main-image
 {
-    width: 300px;
+    width: 320px;
     margin-left: 80px;
     margin-bottom: 20px;
     border-radius: 9px;
@@ -124,13 +125,13 @@ main
 .thumbnail-section
 {
     display: flex;
-    width: 66%;
+    width: 76%;
     justify-content: space-between;
     margin-left: 84px;
 }
 .thumbnail-section img
 {
-    width: 55px;
+    width: 60px;
     border-radius: 6px;
     
     
@@ -148,9 +149,8 @@ main
     margin:  80px;
     font-weight: 1000;
     margin-right: 340px;
+    font-size: 1.1rem;
     
-
-
 }
 h6{
     color: coral;
@@ -160,6 +160,7 @@ p{
     font-weight: 100;
     letter-spacing: 0.3px;
     margin-top: 20px;
+    margin-right: 1.7rem;
 }
 
 /* ======Price tag section==== */
@@ -181,18 +182,18 @@ p{
     padding: 0 3px;
 }
 .btn-div{
-    margin-top: 20px;
-    margin-bottom: 130px;
+    margin-top: 30px;
+     margin-bottom: 130px;
     background-color: lavender;
     border-radius: 8px;
-    
+   
     
 }
 
-/* ====(-)buttonn=== */
+/* ====(-)button=== */
 #remove{
     color: coral;
-    padding: 3px 10px;
+    padding-left: 1.1rem;
     outline: none;
     font-size: large;
     font-weight: 900;
@@ -203,14 +204,13 @@ p{
 }
 #item{
     margin: 0 10px;
-    padding: 3px 20px;
+    
    
 }
 
-/* ====(+)buttonn=== */
+/* ====(+)button=== */
 #add{
     color: coral;
-    padding: 3px 10px;
     outline: none; 
     font-size: large;
     font-weight: 900;
@@ -225,7 +225,9 @@ p{
 
 /* ===Addd to cart section=== */
 #cart{
-    margin-left: 9px;
+    margin-left: 30%;
+    
+    display: flex;
     padding:8px 40px;
     color: azure;
     background-color:hsl(26, 100%, 55%);
@@ -236,3 +238,4 @@ p{
 }
 
 /* ====Right Cart img==== */
+
