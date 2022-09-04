@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./style.css">
   <title>E-commerce product page</title>
   <script src="./app.js" defer></script>
 </head>
@@ -22,7 +24,7 @@
     </nav>
   </div>
   <div class="header-right">
-      <img src="./img/icon-cart.svg" alt="">
+      <img class="cart-img" src="./img/icon-cart.svg" alt="">
       <img src="./img/image-avatar.png" alt="">
   </div>
 </header>
@@ -38,17 +40,19 @@
     </div>
   </div>
   <div class="product-content-section">
-    <h3>SNEAKER COMPANY</h3>
-    <h2>fALL LIMITED EDITION</h2>
+    <h6>SNEAKER COMPANY</h6>
+    <h2>Fall Limited Edition <br>
+       Sneakers</h2>
     <p>These low-profile sneakers are your perfect casual wear companion.Featuring a durable rubber outer sole,they'll withstand everything the weather can offer.</p>
     <div class="price-tag">
       <span>$125.00</span>
+      <span class="discount">50%</span>
     </div>
     <div class="btn-div">
-      <button>-</button>
-      <span>0</span>
-      <button>+</button>
-      <button>Add to cart</button>
+      <button id="remove" class="add-remove">-</button>
+      <span id="item" class="add-remove">0</span>
+      <button id="add" class="add-remove">+</button>
+      <button id="cart">Add to cart</button>
     </div>
   </div>
 </main>
